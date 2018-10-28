@@ -3,4 +3,7 @@ module.exports = {
     "env": {
         "mocha": true,
     },
+    "rules": {
+        "no-use-before-define": ["error", { "functions": false }]
+    },
 };
